@@ -15,13 +15,13 @@ Reference : https://github.com/dennybritz/cnn-text-classification-tf**
 ## Training:
 
 ```bash
-./train.py
+python train.py
 ```
 
 ## Evaluating
 
 ```bash
-./eval.py --eval_train --checkpoint_dir="./runs/1459637919/checkpoints/"
+python eval.py --eval_train --checkpoint_dir="./runs/1459637919/checkpoints/"
 ```
 
 Replace the number folder with the output from the training.
